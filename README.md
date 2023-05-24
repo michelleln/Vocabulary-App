@@ -11,9 +11,11 @@ Main Menu Window:
 ![demo saved words](https://user-images.githubusercontent.com/39193084/168063387-c7f1c857-d6a2-4437-a426-b5c5692c3403.gif)
 
 3. Studying new words by using flashcards, easily switching between two language modes:
+
 ![Screen Recording 2022-05-12 at 19 24 35](https://user-images.githubusercontent.com/39193084/168064640-51812c45-1459-495f-9a4b-39197215e0ee.gif)
 
 4. Taking quiz to test your vocabulary. Choose the number of words you want to be tested in a quiz, both in Eng-Viet mode or Viet-Eng mode:
+
 ![Screen Recording 2022-05-12 at 19 25 47](https://user-images.githubusercontent.com/39193084/168064738-63adb420-fe84-4397-80cb-7f49e291a7ce.gif)
 
 ![Screen Recording 2022-05-12 at 19 27 02](https://user-images.githubusercontent.com/39193084/168064833-33e38ba9-02b7-41ee-a6de-028560f8de53.gif)
