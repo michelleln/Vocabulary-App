@@ -4,6 +4,7 @@ Main Menu Window:
 
 <img width="590" alt="image" src="https://user-images.githubusercontent.com/39193084/168049858-a7541d4d-0014-48ee-b7c8-39288c9ee844.png">
 1. Demonstration of inputing a new ENglish word, fetching its suggested dictionary meaning and store it into saved items:
+
 ![demo](https://user-images.githubusercontent.com/39193084/168065396-2cf2db68-1f91-478d-9c19-512b85afbb07.gif)
 
 2. Edit/delete or search for an item in the saved words list:
