@@ -8,6 +8,7 @@ Main Menu Window:
 ![demo](https://user-images.githubusercontent.com/39193084/168065396-2cf2db68-1f91-478d-9c19-512b85afbb07.gif)
 
 2. Edit/delete or search for an item in the saved words list:
+
 ![demo saved words](https://user-images.githubusercontent.com/39193084/168063387-c7f1c857-d6a2-4437-a426-b5c5692c3403.gif)
 
 3. Studying new words by using flashcards, easily switching between two language modes:
