@@ -3,7 +3,8 @@ An application written in Java and ran in Netbeans, created to help optimize the
 
 Main Menu Window:
 
-(https://user-images.githubusercontent.com/39193084/168049858-a7541d4d-0014-48ee-b7c8-39288c9ee844.png)
+<img width="590" alt="image" src="https://user-images.githubusercontent.com/39193084/168049858-a7541d4d-0014-48ee-b7c8-39288c9ee844.png">
+
 1. Demonstration of inputing a new ENglish word, fetching its suggested dictionary meaning and store it into saved items:
 
 ![demo](https://user-images.githubusercontent.com/39193084/168065396-2cf2db68-1f91-478d-9c19-512b85afbb07.gif)
@@ -47,15 +48,15 @@ Netbeans was used. JavaSwing GUI libraries are utilized to design how different 
 
 ### 1. Word input storage Data structure & Presentation
   
-    **ArrayLists**  
+  **ArrayLists**  
     
-    I used an ArrayList called keysArrayList to store the English representation of every word as String, which is the “key” to differentiate between Word objects. This is used to retreive such Word object from the dictionary (which is a HashMap collection). ArrayLists were chosen instead of other datatypes such as LinkedLists since ArrayList is a dynamically resizable array which allows efficiency of O(1) when stored data is accessed, consumes less memory than its counterparts. This means that regardless of the set size, the amount of time spent accessing data remains constant, which is particularly helpful for storing a large number of word inputs. Furthermore, using ArrayLists facilitates storing data in a dedicated manner, making future updates to the list straightforward.  
+  I used an ArrayList called keysArrayList to store the English representation of every word as String, which is the “key” to differentiate between Word objects. This is used to retreive such Word object from the dictionary (which is a HashMap collection). ArrayLists were chosen instead of other datatypes such as LinkedLists since ArrayList is a dynamically resizable array which allows efficiency of O(1) when stored data is accessed, consumes less memory than its counterparts. This means that regardless of the set size, the amount of time spent accessing data remains constant, which is particularly helpful for storing a large number of word inputs. Furthermore, using ArrayLists facilitates storing data in a dedicated manner, making future updates to the list straightforward.  
 
-    **HashMap collection (Objects as data records)**  
+  **HashMap collection (Objects as data records)**  
 
     A HashMap is created to store the String and Word pairs, effectively pairing the English word string - the “key”, to the Word object itself. Therefore, we can retrieve a Word object knowing its English representation, avoiding assigning numerical indexes which can complicate the process of updating and accessing the Word objects.  
 
-    **Abstract TableModel**  
+  **Abstract TableModel**  
 
     The table view of all saved items is constructed based on an Abstract TableModel class, which does not need to be instantiated for its object data to be accessed. Columns and rows of the table view are filled as this TableModel retrieved values from the aforementioned ArrayList that reads all the English-word keys (of the HashMap function) and their corresponding properties in Word objects. By modifying data of the Abstract TableModel, the table view is accordingly and instantaneously updated, with the use of a TableModel listener. The Delete Word and Edit Word features refer to this class and make changes to its data, while simulataneously updating the HashMap function that is the saved dictionary. Abstract TableModel is chosen over Default TableModel as it provides a convenient class that can extend to a model.  
 
@@ -80,22 +81,27 @@ Highlights the process of data flowing through the system when the program is ru
 
 ### 3. GUI elements  
 
-<img width="656" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/f8d5d871-e9f7-487a-a21c-71dc0bc97fce">
+<img width="656" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/f8d5d871-e9f7-487a-a21c-71dc0bc97fce">  
 *Figure 1*: Main Menu Window  
 
-<img width="674" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/37dd184f-ac6e-4d14-8c83-eaee92113677">
+
+<img width="674" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/37dd184f-ac6e-4d14-8c83-eaee92113677">  
 *Figure 2*: Input new word Window  
 
-<img width="655" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/1a5a3c22-c2db-4777-b2db-9d935935de83">
+
+<img width="655" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/1a5a3c22-c2db-4777-b2db-9d935935de83">  
 *Figure 3*: View saved words Window  
 
-<img width="671" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/64648ed8-529c-46b1-8354-b86fadaa2543">
+
+<img width="671" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/64648ed8-529c-46b1-8354-b86fadaa2543">  
 *Figure 4*: Flashcard Window  
 
-<img width="652" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/fbb95640-a093-468d-b66e-47d75f4a2525">
+
+<img width="652" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/fbb95640-a093-468d-b66e-47d75f4a2525">  
 *Figure 5*: Quiz Window – Mode English-Vietnamese  
 
-<img width="651" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/2f8b6d62-f0fc-46d9-8915-506efd83c405">
+
+<img width="651" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/2f8b6d62-f0fc-46d9-8915-506efd83c405">  
 *Figure 6*: Quiz Window – Mode Vietnamese-English  
 
 ### 4. Flowchart  
@@ -107,15 +113,21 @@ Represents the processes running when the user interacts with the application an
 ### 5. Key algorithms  
 
 **Generate a random Question and its multiple choices**
+![image](https://github.com/michelleln/Vocabulary-App/assets/133190574/cb84b9c3-07a0-46c4-a274-8f6bcaf89275)
 
 
 **Calculate score of a quiz**
+<img width="176" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/b54f67a8-f198-41a0-8ae1-88c24c02e073">
 
 
 **Randomize a set of flashcards**
+<img width="184" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/5bd9a371-6ead-4592-b957-ede1c5f5ca9a">
 
 
-### 6. UML Diagram
+### 6. UML Diagram  
+
+<img width="522" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/6361156a-b482-42bf-a84d-26c8755780bf">
+
 
 
 ### 7. Data dictionary
