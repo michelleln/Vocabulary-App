@@ -82,26 +82,32 @@ Highlights the process of data flowing through the system when the program is ru
 ### 3. GUI elements  
 
 <img width="656" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/f8d5d871-e9f7-487a-a21c-71dc0bc97fce">  
+
 *Figure 1*: Main Menu Window  
 
 
 <img width="674" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/37dd184f-ac6e-4d14-8c83-eaee92113677">  
+
 *Figure 2*: Input new word Window  
 
 
 <img width="655" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/1a5a3c22-c2db-4777-b2db-9d935935de83">  
+
 *Figure 3*: View saved words Window  
 
 
 <img width="671" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/64648ed8-529c-46b1-8354-b86fadaa2543">  
+
 *Figure 4*: Flashcard Window  
 
 
 <img width="652" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/fbb95640-a093-468d-b66e-47d75f4a2525">  
+
 *Figure 5*: Quiz Window – Mode English-Vietnamese  
 
 
 <img width="651" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/2f8b6d62-f0fc-46d9-8915-506efd83c405">  
+
 *Figure 6*: Quiz Window – Mode Vietnamese-English  
 
 ### 4. Flowchart  
