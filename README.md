@@ -284,5 +284,12 @@ Represents the processes running when the user interacts with the application an
 <p align="center"><img width="522" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/6361156a-b482-42bf-a84d-26c8755780bf"></p>
 
 
-
 ### 7. Data dictionary  
+
+| Fields | Data Types | Constraints | Example |
+| ----------- | ----------- | ----------- | ----------- |
+| English word | String | Not null | “apple” |
+| Suggested meaning | String | | “táo” |
+| Your own definition | String | | “quả táo” |
+| Words in context | String | | “I have an apple” |
+| Additional notes | String | | ""|
