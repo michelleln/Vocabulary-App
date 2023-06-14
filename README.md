@@ -54,11 +54,11 @@ Netbeans was used. JavaSwing GUI libraries are utilized to design how different 
 
   **HashMap collection (Objects as data records)**  
 
-    A HashMap is created to store the String and Word pairs, effectively pairing the English word string - the “key”, to the Word object itself. Therefore, we can retrieve a Word object knowing its English representation, avoiding assigning numerical indexes which can complicate the process of updating and accessing the Word objects.  
+  A HashMap is created to store the String and Word pairs, effectively pairing the English word string - the “key”, to the Word object itself. Therefore, we can retrieve a Word object knowing its English representation, avoiding assigning numerical indexes which can complicate the process of updating and accessing the Word objects.  
 
   **Abstract TableModel**  
 
-    The table view of all saved items is constructed based on an Abstract TableModel class, which does not need to be instantiated for its object data to be accessed. Columns and rows of the table view are filled as this TableModel retrieved values from the aforementioned ArrayList that reads all the English-word keys (of the HashMap function) and their corresponding properties in Word objects. By modifying data of the Abstract TableModel, the table view is accordingly and instantaneously updated, with the use of a TableModel listener. The Delete Word and Edit Word features refer to this class and make changes to its data, while simulataneously updating the HashMap function that is the saved dictionary. Abstract TableModel is chosen over Default TableModel as it provides a convenient class that can extend to a model.  
+  The table view of all saved items is constructed based on an Abstract TableModel class, which does not need to be instantiated for its object data to be accessed. Columns and rows of the table view are filled as this TableModel retrieved values from the aforementioned ArrayList that reads all the English-word keys (of the HashMap function) and their corresponding properties in Word objects. By modifying data of the Abstract TableModel, the table view is accordingly and instantaneously updated, with the use of a TableModel listener. The Delete Word and Edit Word features refer to this class and make changes to its data, while simulataneously updating the HashMap function that is the saved dictionary. Abstract TableModel is chosen over Default TableModel as it provides a convenient class that can extend to a model.  
 
 
 
@@ -86,9 +86,11 @@ Highlights the process of data flowing through the system when the program is ru
 *Figure 1*: Main Menu Window  
 
 
+
 <img width="674" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/37dd184f-ac6e-4d14-8c83-eaee92113677">  
 
 *Figure 2*: Input new word Window  
+
 
 
 <img width="655" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/1a5a3c22-c2db-4777-b2db-9d935935de83">  
@@ -96,14 +98,17 @@ Highlights the process of data flowing through the system when the program is ru
 *Figure 3*: View saved words Window  
 
 
+
 <img width="671" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/64648ed8-529c-46b1-8354-b86fadaa2543">  
 
 *Figure 4*: Flashcard Window  
 
 
+
 <img width="652" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/fbb95640-a093-468d-b66e-47d75f4a2525">  
 
 *Figure 5*: Quiz Window – Mode English-Vietnamese  
+
 
 
 <img width="651" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/2f8b6d62-f0fc-46d9-8915-506efd83c405">  
@@ -119,15 +124,15 @@ Represents the processes running when the user interacts with the application an
 ### 5. Key algorithms  
 
 **Generate a random Question and its multiple choices**
-![image](https://github.com/michelleln/Vocabulary-App/assets/133190574/cb84b9c3-07a0-46c4-a274-8f6bcaf89275)
+<img width="89" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/eadecf9e-86f5-49d0-850b-f12e20c7b3d4">  
 
 
 **Calculate score of a quiz**
-<img width="176" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/b54f67a8-f198-41a0-8ae1-88c24c02e073">
+<img width="176" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/b54f67a8-f198-41a0-8ae1-88c24c02e073">  
 
 
 **Randomize a set of flashcards**
-<img width="184" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/5bd9a371-6ead-4592-b957-ede1c5f5ca9a">
+<img width="184" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/5bd9a371-6ead-4592-b957-ede1c5f5ca9a">  
 
 
 ### 6. UML Diagram  
