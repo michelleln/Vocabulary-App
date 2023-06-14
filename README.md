@@ -1,5 +1,5 @@
 # Vocabulary-App
-An application written in Java and ran in Netbeans, created to help optimize the process of learning vocabulary. Features of the application include: adding new English words, getting a suggested Vietnamese meaning of the entered English word by an Eng-Viet translation API, studying flashcards created in two language modes Eng-Viet or Viet-Eng and testing your progress by taking quizzes in both languages mode.  
+An application written in Java, JavaFx and ran in Netbeans, created to help optimize the process of learning vocabulary. Features of the application include: adding new English words, getting a suggested Vietnamese meaning of the entered English word via an Eng-Viet translation API, studying flashcards created in two language modes Eng-Viet or Viet-Eng, and testing your progress by taking quizzes, also in both language modes.  
 
 Main Menu Window:
 
