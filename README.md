@@ -60,6 +60,7 @@ Netbeans was used. JavaSwing GUI libraries are utilized to design how different 
   I used an ArrayList called keysArrayList to store the English representation of every word as String, which is the “key” to differentiate between Word objects. This is used to retreive such Word object from the dictionary (which is a HashMap collection). ArrayLists were chosen instead of other datatypes such as LinkedLists since ArrayList is a dynamically resizable array which allows efficiency of O(1) when stored data is accessed, consumes less memory than its counterparts. This means that regardless of the set size, the amount of time spent accessing data remains constant, which is particularly helpful for storing a large number of word inputs. Furthermore, using ArrayLists facilitates storing data in a dedicated manner, making future updates to the list straightforward.  
 &nbsp;
 &nbsp;  
+
   **HashMap collection (Objects as data records)**  
 
   <img width="331" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/05d6d61b-1612-4d3c-9244-90c7f7b3af57">  
@@ -145,16 +146,19 @@ Represents the processes running when the user interacts with the application an
 
 **Generate a random Question and its multiple choices**  
 <p align="center"><img width="89" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/eadecf9e-86f5-49d0-850b-f12e20c7b3d4"></p>  
+  
 &nbsp;
 &nbsp;
   
 **Calculate score of a quiz**  
 <p align="center"><img width="176" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/b54f67a8-f198-41a0-8ae1-88c24c02e073"></p>  
+  
 &nbsp;
 &nbsp;
   
 **Randomize a set of flashcards**  
 <p align="center"><img width="184" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/5bd9a371-6ead-4592-b957-ede1c5f5ca9a"></p>  
+  
 &nbsp;
 &nbsp;
   
