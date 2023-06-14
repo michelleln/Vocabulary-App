@@ -47,6 +47,7 @@ Main Menu Window:
 Netbeans was used. JavaSwing GUI libraries are utilized to design how different GUI windows interact. Accessing translated Vietnamese meaning of an entered English word by retrieving the JSON response object from online API dictionary and converting the object to text with JSON libraries.  
 
 <img width="493" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/bed6d376-fdd0-4926-baae-c2c43d4d3c0c">  
+
 *Figure 1: Parsing the required translation text from JSON response object*  
 &nbsp;
 &nbsp;
