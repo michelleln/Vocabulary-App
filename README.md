@@ -1,5 +1,5 @@
 # VocabularyApp
-An application written in Java and ran in Netbeans, created to help optimize the process of learning vocabulary. Features of the application include: adding new English words, getting a suggested Vietnamese meaning of the entered English word by an Eng-Viet translation API, studying flashcards created in two language modes Eng-Viet or Viet-Eng and testing your progress by taking quizzes in both languages mode.
+An application written in Java and ran in Netbeans, created to help optimize the process of learning vocabulary. Features of the application include: adding new English words, getting a suggested Vietnamese meaning of the entered English word by an Eng-Viet translation API, studying flashcards created in two language modes Eng-Viet or Viet-Eng and testing your progress by taking quizzes in both languages mode.  
 Main Menu Window:
 
 <img width="590" alt="image" src="https://user-images.githubusercontent.com/39193084/168049858-a7541d4d-0014-48ee-b7c8-39288c9ee844.png">
@@ -68,27 +68,39 @@ Netbeans was used. JavaSwing GUI libraries are utilized to design how different 
 ### 1. Hierarchical Chart  
 Represents how different windows and interfaces for each feature are linked together  
 
+<img width="523" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/e2f404df-95d0-4e0f-a192-ab4fa30a7131">
 
 
 ### 2. Data Flow Diagram  
 Highlights the process of data flowing through the system when the program is running. This also shows the internal workings of the program as multiple commands write and read data.  
 
+<img width="470" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/20e8c0ab-2d7d-435f-b8ce-be87bc37c3d6">
+
+
 ### 3. GUI elements  
 
+<img width="656" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/f8d5d871-e9f7-487a-a21c-71dc0bc97fce">
 *Figure 1*: Main Menu Window  
 
+<img width="674" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/37dd184f-ac6e-4d14-8c83-eaee92113677">
 *Figure 2*: Input new word Window  
 
+<img width="655" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/1a5a3c22-c2db-4777-b2db-9d935935de83">
 *Figure 3*: View saved words Window  
 
+<img width="671" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/64648ed8-529c-46b1-8354-b86fadaa2543">
 *Figure 4*: Flashcard Window  
 
+<img width="652" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/fbb95640-a093-468d-b66e-47d75f4a2525">
 *Figure 5*: Quiz Window – Mode English-Vietnamese  
 
+<img width="651" alt="image" src="https://github.com/michelleln/Vocabulary-App/assets/133190574/2f8b6d62-f0fc-46d9-8915-506efd83c405">
 *Figure 6*: Quiz Window – Mode Vietnamese-English  
 
 ### 4. Flowchart  
-Represents the processes running when the user interacts with the application and portrays how its different features work in tandem.
+Represents the processes running when the user interacts with the application and portrays how its different features work in tandem.  
+
+![image](https://github.com/michelleln/Vocabulary-App/assets/133190574/56c50008-eb68-44fe-a2e8-3c103de11676)
 
 
 ### 5. Key algorithms  
