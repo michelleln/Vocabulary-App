@@ -292,4 +292,4 @@ Represents the processes running when the user interacts with the application an
 | Suggested meaning | String | | “táo” |
 | Your own definition | String | | “quả táo” |
 | Words in context | String | | “I have an apple” |
-| Additional notes | String | | ""|
+| Additional notes | String | | "" |
